@@ -1,0 +1,141 @@
+pwd
+ssh-keygen
+ll
+cat $HOME/.ssh/*.pub
+cd ..
+pwd
+mkdir repogit
+cd ..
+pwd
+cd home/
+pwd
+ll
+cd vagrant/
+ll
+cd ..
+mkdir repogit
+sudo mkdir repogit
+cd repogit/
+cd ..
+ll
+cd repogit/
+ll
+pwd
+git clone git@github.com:aleconsta/TP_AySO.git
+sudo git clone git@github.com:aleconsta/TP_AySO.git
+ll
+ls -la
+sudo git clone git@github.com:aleconsta/TP_AySO.git
+ll
+ls -la
+sudo ls -la
+git clone git@github.com:aleconsta/TP_AySO.git
+cd ..
+cd home/
+cd vagrant/
+ll
+cd repogit/
+git clone git@github.com:aleconsta/TP_AySO.git
+ll
+cd TP_AySO/
+ll
+ls -l
+cat /etc/os-release 
+man grep
+cd ..
+grep -i tp_ayso
+cat TP_AySO
+cat > TP_AySO
+ll
+cd TP_AySO/
+ll
+cat > TP_AySO
+cat TP_AySO 
+grep -i
+grep -i t
+cat TP_AySO 
+cat t
+cd ..
+grep -i cd tp_ayso
+cd TP_AySO/
+cd ..
+cd tp_ayso grep -i
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+pwd
+ll
+grep -i Home_url /etc/os-release 
+whoami
+id -un
+id
+echo "Ususrio=$(whoami)">datos_usuario.txt
+ll
+cat datos_usuario.txt 
+git sytatus
+git status
+cd TP_AySO/
+ll
+ls
+cat TP_AySO 
+echo "Usuario=$(whoami)">datos_usuario.txt
+ll
+git status
+git add .
+git status
+git commit -m "ADD:agregado 1er ejercicio sobre datos_usuarios.txt"
+git config --global user.email "a.constanzo@sistemas-utnfra.com.ar.com"
+git config --global user.name "aleconsta"
+git status
+git commit -m "ADD:agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+head /proc/cpuinfo | grep "model name" >> datos_usuario.txt 
+ll
+cat datos_usuario.txt 
+git status
+git add .
+git status
+git commit -m “feat: Añadiendo información de CPU”
+git status
+git commit -m “feat: Añadiendo información de CPU”
+git commit -m "feat: Añadiendo información de CPU"
+git status
+msn grep
+man grep
+man sort via a key
+grep -v nologin /etc/passwd > lista_ordenada
+ll
+cat lista_ordenada 
+sort lista_ordenada  -t":" -k7
+grep -v nologin /etc/passwd | sort -t":" -k7 > lista_ordenada
+ll
+cat lista_ordenada 
+git status
+git add .
+git status
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+apropos "dump traffic"
+tcpdump
+sudo apropos "dump traffic"
+tcpdump
+apropos "dump traffic" > comando_dump_net
+echo apropos "dump traffic" >> comando_dump_net
+ll
+git status
+cat comando_dump_net 
+sudo tcpdump port 443
+cat comando_dump_net 
+git status
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git status
+ll
+cat << FIN >> README.md
+ll
+
+ll
+git status
+ll
+git status
+history -a \$HOME/.bash_history
+history -a $HOME/.bash_history
